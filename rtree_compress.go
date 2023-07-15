@@ -23,6 +23,8 @@ func (r *RRect) Compress(dst []byte, height int) []byte {
 	if height == 0 {
 		var ibytes byte = 1
 		for i := 0; i < n.count; i++ {
+			// Data is an original series' segment index:
+			// https://github.com/tidwall/geojson/blob/v1.4.3/geometry/series.go#L316-L318
 			ibytes2 := numBytes(uint32(n.rects[i].Data.(int)))
 			if ibytes2 > ibytes {
 				ibytes = ibytes2
