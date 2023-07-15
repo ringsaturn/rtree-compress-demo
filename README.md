@@ -11,6 +11,7 @@ the RTree index file.
 - [`tidwall/geojson#23`: Questions on `DefaultIndexOptions`](https://github.com/tidwall/geojson/issues/23)
 - [`ringsaturn/geometry-rs#3`: Speed up look up](https://github.com/ringsaturn/geometry-rs/issues/3)
 - [`ringsaturn/geometry-rs#4`: Add RTree index for polygon](https://github.com/ringsaturn/geometry-rs/pull/4)
+- [`ringsaturn/geometry-rs#6`: Reduce RTree index memory usage](https://github.com/ringsaturn/geometry-rs/issues/6)
 
 ## LICENSE
 
